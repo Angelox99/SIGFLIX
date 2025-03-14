@@ -1,0 +1,27 @@
+.search-results {
+  padding: 20px;
+}
+
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.result-card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.result-card img {
+  width: 100%;
+  height: auto;
+}
+
+.result-card h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}

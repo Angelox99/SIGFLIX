@@ -1,0 +1,26 @@
+.terms-of-use {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.terms-of-use h1, .terms-of-use h2 {
+  text-align: center;
+}
+
+.terms-of-use ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.terms-of-use ul ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.terms-of-use p {
+  margin: 10px 0;
+}
